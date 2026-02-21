@@ -3,13 +3,13 @@ import { ServerComponentOne } from "../components/Server-component-one";
 
 
 export default function InterLeavingPage(){
-    /*return (
+    return (
         <>
         <h1>Interleaving Page</h1>
         <ServerComponentOne />
         </>
-    ) */
-
+    ) 
+/*// Server component inside a client component
         return (
             <>
             <h1>Interleaving Page</h1>
@@ -18,4 +18,6 @@ export default function InterLeavingPage(){
             </ClientComponentOne>
             </>
         )
+
+        */
 }
